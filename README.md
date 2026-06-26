@@ -1,5 +1,2 @@
-- `xxx.py`
-  アップロード確認機能で使用する各種定数を一括管理する。
-
-- `yyy.py`
-  英語ヘッダーと日本語項目名の対応関係を管理し、表示用の項目名変換に使用する。
+upload_confirm_constants.py
+header_name_mapping.py
