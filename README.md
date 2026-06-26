@@ -1,2 +1,5 @@
-upload_confirm_constants.py
-header_name_mapping.py
+項目名：アップロード確認一覧データ
+key：DF_Data
+概要：初期化時に自動検索で取得したアップロード確認データを保持する。画面表示および絞り込み処理で使用する。
+初期値：空DataFrame
+更新タイミング：初期化時、自動検索実行時
