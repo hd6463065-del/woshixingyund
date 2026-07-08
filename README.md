@@ -1,1 +1,1 @@
-各代表テーブルで試験実施。
+print(df["user_name"].apply(lambda x: (repr(x), type(x))).tolist())
