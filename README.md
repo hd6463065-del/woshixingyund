@@ -1,3 +1,2 @@
-import pandas as pd
-
-df = df.astype(object).where(pd.notna(df), "")
+SELECT TO_CHAR(TO_DATE(date_str, 'YYYYMMDD'), 'YYYY/MM/DD')
+FROM your_table;
