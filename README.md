@@ -1,3 +1,1 @@
-import pandas as pd
-df = df.astype(object).where(pd.notna(df), "")
-value = a.iloc[0][b].replace("/", "")
+本条に関連するデータをすべて出力し、ダウンロードします。よろしいですか？
