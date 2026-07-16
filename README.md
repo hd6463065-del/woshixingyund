@@ -1,3 +1,14 @@
-タイトル：結合テスト
- 
-A画面でExcelをアップロードしデータ登録後、B画面で破棄処理を実行しデータステータスを更新し、再度A画面へ戻り同一Excelをアップロードした場合、新規データが正常に挿入されエラーが発生しないこと。
+update_msg = st.session_state.get(SESSION_KEY.SS_KEY_UPDATE_MSG, None)
+
+if update_msg:
+    ddd.aaa(update_msg)
+    ss["display_flag"] = False
+    st.session_state.pop(SESSION_KEY.SS_KEY_UPDATE_MSG, None)
+else:
+    error_msg = st.session_state.get(SESSION_KEY.SS_KEY_DB_ERROR, None)
+
+    if error_msg:
+        ddd.aaa("3")
+        ss["display_flag"] = False
+
+return data
