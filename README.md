@@ -1,3 +1,1 @@
-import shutil
-
-shutil.rmtree(tmp_dir)
+空白の場合、処理を行う必要がなく、単なる記載ミスです。
