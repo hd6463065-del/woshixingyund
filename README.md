@@ -1,4 +1,5 @@
-if isinstance(val, Decimal):
-    row_dict[col_upper] = format(val, "f")
-else:
-    row_dict[col_upper] = str(val)
+np.where(
+            cr_lmt_info_df["MEIGI_NO"].notna(),
+            cr_lmt_info_df["HOJIN_NO"] + cr_lmt_info_df["MEIGI_NO"],
+            cr_lmt_info_df["HOJIN_NO"]
+        )
