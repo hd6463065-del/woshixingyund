@@ -1,1 +1,1 @@
-data = binary_data.fillna("")
+科学記述法の修正も
