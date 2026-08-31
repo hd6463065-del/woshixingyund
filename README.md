@@ -1,1 +1,1 @@
-import numpy as np
+ORDER BY CAST(HYOJI_JUN AS NUMBER)
