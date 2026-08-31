@@ -1,1 +1,1 @@
-ORDER BY CAST(HYOJI_JUN AS NUMBER)
+data = binary_data.fillna("")
