@@ -1,8 +1,3 @@
-# 在修改 border 前后分别打印
-st.write(f"修改前格式: {cell.number_format}")
-st.write(f"修改前值类型: {type(cell.value)}")
-
-cell.border = thin_border
-
-st.write(f"修改后格式: {cell.number_format}")
-st.write(f"修改后值类型: {type(cell.value)}")
+# ✅ 推荐的加载方式
+wb = load_workbook(filename, keep_vba=False, data_only=False) 
+# data_only=True 会丢弃公式，有时也会导致格式关联丢失
