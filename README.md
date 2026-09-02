@@ -1,3 +1,4 @@
-# ✅ 推荐的加载方式
-wb = load_workbook(filename, keep_vba=False, data_only=False) 
-# data_only=True 会丢弃公式，有时也会导致格式关联丢失
+cell = ws["B2"]  # ← 改成目标单元格
+print(f"格式: {repr(cell.number_format)}")
+print(f"值类型: {type(cell.value).__name__}")
+print(f"值内容: {repr(cell.value)}")
