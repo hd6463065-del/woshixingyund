@@ -1,0 +1,1 @@
+work_sheet.row_dimensions[8].hidden = True
